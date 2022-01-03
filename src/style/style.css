@@ -25,6 +25,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.todo-item .completed {
+  text-decoration: strikthrough;
+}
 .todo-item-delete {
   color: red;
+  cursor: pointer;
+}
+.todo-item-done {
+  color: green;
+  cursor: pointer;
 }
